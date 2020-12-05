@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tweetbook</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiPractice.Interfaces.IAuthorRepository">
+            <summary>
+            IAuthorRepository
+            </summary>
+        </member>
+        <member name="M:WebApiPractice.Interfaces.IAuthorRepository.GetAllAuthor">
+            <summary>
+            GetAllAuthor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPractice.Interfaces.IAuthorRepository.Add(Tweetbook.Models.Author)">
+            <summary>
+            Add
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPractice.Interfaces.IAuthorRepository.Update(Tweetbook.Models.Author)">
+            <summary>
+            Update
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiPractice.Providers.AuthorRepository">
+            <summary>
+            AuthorRepository
+            </summary>
+        </member>
+        <member name="M:WebApiPractice.Providers.AuthorRepository.#ctor(Tweetbook.TweetBookContext)">
+            <summary>
+            AuthorRepository
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:WebApiPractice.Providers.AuthorRepository.GetAllAuthor">
+            <summary>
+            GetAllAuthor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPractice.Providers.AuthorRepository.Add(Tweetbook.Models.Author)">
+            <summary>
+            Add
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiPractice.Providers.AuthorRepository.Update(Tweetbook.Models.Author)">
+            <summary>
+            Update
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:Tweetbook.Models.Author">
+            <summary>
+            Author
+            </summary>
+        </member>
+        <member name="P:Tweetbook.Models.Author.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Tweetbook.Models.Author.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="T:Tweetbook.TweetBookContext">
+            <summary>
+            TweetBookContext
+            </summary>
+        </member>
+        <member name="M:Tweetbook.TweetBookContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Tweetbook.TweetBookContext})">
+            <summary>
+            TweetBookContext
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:Tweetbook.TweetBookContext.Authors">
+            <summary>
+            Authors
+            </summary>
+        </member>
+    </members>
+</doc>
